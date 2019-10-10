@@ -23,5 +23,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage":"https://namvd2709.github.io/ML-React-App-Template",
+  "scripts":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+
 }
